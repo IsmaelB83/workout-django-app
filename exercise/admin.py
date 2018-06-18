@@ -4,78 +4,78 @@
 from django.contrib import admin
 # Third party app imports
 # Local app imports
-from .models import BodyPart, Exercise, Set, ExerciseSet, TrainDay, Routine
+from .models import MuscleGroup, Muscle, Exercise, ExerciseSet, TrainingDay, Workout
 
 
-class BodyPartModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "name", "image"]
+class MuscleGroupModelAdmin(admin.ModelAdmin):
+	list_display = ["id", "name", "description", "benefits", "basics", "image"]
 	list_display_links = ["id"]
-	list_editable = ["name", "image"]
+	list_editable = ["name", "description", "benefits", "basics", "image"]
 	list_filter = ["name"]
 	search_fields = ["name"]
 	
 	class Meta:
-		model = BodyPart
+		model = MuscleGroup
+		
+
+class MuscleModelAdmin(admin.ModelAdmin):
+	list_display = ["id", "name", "description", "basics", "image", "muscle_group"]
+	list_display_links = ["id"]
+	list_editable = ["name", "description", "basics", "image", "muscle_group"]
+	list_filter = ["name"]
+	search_fields = ["name"]
+	
+	class Meta:
+		model = Muscle
 
 
 class ExerciseModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "name", "description", "image"]
+	list_display = ["id", "name", "description", "instructions", "tips", "image"]
 	list_display_links = ["id"]
-	list_editable = ["name", "description"]
-	list_filter = ["name", "description"]
-	search_fields = ["name", "description"]
+	list_editable = ["name", "description", "instructions", "tips", "image"]
+	list_filter = ["name"]
+	search_fields = ["name"]
 	
 	class Meta:
 		model = Exercise
 
 
-class SetModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "reps", "kgs", "rest"]
+class TrainingDayModelAdmin(admin.ModelAdmin):
+	list_display = ["id", "name", "summary", "recommendations", "motivation_quotes", "day_of_week"]
 	list_display_links = ["id"]
-	list_editable = ["reps", "kgs", "rest"]
-	list_filter = ["reps", "kgs", "rest"]
-	search_fields = ["reps", "kgs", "rest"]
-
-	class Meta:
-		model = Set
-
-
-class ExerciseSetModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "exercise", "set"]
-	list_display_links = ["id"]
-	list_editable = ["exercise", "set"]
-	list_filter = ["exercise", "set"]
-	search_fields = ["exercise", "set"]
-
-	class Meta:
-		model = ExerciseSet
-
-
-class TrainDayModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "name"]
-	list_display_links = ["id"]
-	list_editable = ["name"]
+	list_editable = ["name", "summary", "recommendations", "motivation_quotes", "day_of_week"]
 	list_filter = ["name"]
 	search_fields = ["name"]
 
 	class Meta:
-		model = TrainDay
+		model = TrainingDay
 		
-		
-class RoutineModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "name", "description", "type", "image"]
+
+class ExerciseSetModelAdmin(admin.ModelAdmin):
+	list_display = ["id", "exercise", "reps", "weight", "rest"]
 	list_display_links = ["id"]
-	list_editable = ["name", "description", "type", "image"]
-	list_filter = ["name", "description", "type", "image"]
-	search_fields = ["name", "description", "type", "image"]
+	list_editable = ["exercise", "reps", "weight", "rest"]
+	list_filter = ["exercise"]
+	search_fields = ["exercise"]
 
 	class Meta:
-		model = Routine
+		model = ExerciseSet
+
+		
+class WorkoutModelAdmin(admin.ModelAdmin):
+	list_display = ["id", "name", "summary", "level", "goal", "image"]
+	list_display_links = ["id"]
+	list_editable = ["name", "summary", "level", "goal", "image"]
+	list_filter = ["name", "summary", "level", "goal", "image"]
+	search_fields = ["name", "summary", "level", "goal", "image"]
+	
+	class Meta:
+		model = Workout
 		
 		
-admin.site.register(BodyPart, BodyPartModelAdmin)
+admin.site.register(MuscleGroup, MuscleGroupModelAdmin)
+admin.site.register(Muscle, MuscleModelAdmin)
 admin.site.register(Exercise, ExerciseModelAdmin)
-admin.site.register(Set, SetModelAdmin)
 admin.site.register(ExerciseSet, ExerciseSetModelAdmin)
-admin.site.register(TrainDay, TrainDayModelAdmin)
-admin.site.register(Routine, RoutineModelAdmin)
+admin.site.register(TrainingDay, TrainingDayModelAdmin)
+admin.site.register(Workout, WorkoutModelAdmin)
