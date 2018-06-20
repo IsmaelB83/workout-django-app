@@ -1,0 +1,98 @@
+[
+    {
+        "pk": 1, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Crunch",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1],
+            "secondary_muscles": [2]
+        }
+    },
+    {
+        "pk": 2, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Cable Crunches",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1],
+            "secondary_muscles": [2,3]
+        }
+    },
+    {
+        "pk": 3, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Hanging Leg Tucks",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1],
+            "secondary_muscles": [2,3,23]
+        }
+    },
+    {
+        "pk": 4, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Hanging Oblique Tucks",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1],
+            "secondary_muscles": [2]
+        }
+    },
+    {
+        "pk": 5, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Leg Raises",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1],
+            "secondary_muscles": [23]
+        }
+    },
+    {
+        "pk": 6, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Lying Front Kicks",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1],
+            "secondary_muscles": [2]
+        }
+    },
+    {
+        "pk": 7, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Machine Crunches",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1],
+            "secondary_muscles": [2]
+        }
+    },
+    {
+        "pk": 8, 
+        "model": "gym.Exercise", 
+        "fields": {
+            "name": "Side Plank with Straight Leg",
+  	        "description": "",  
+            "instructions": "",
+	        "tips": "",
+            "primary_muscles": [1,2,20],
+            "secondary_muscles": [22,17]
+        }
+    }
+]

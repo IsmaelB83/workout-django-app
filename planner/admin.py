@@ -4,7 +4,7 @@
 from django.contrib import admin
 # Third party app imports
 # Local app imports
-from .models import Program, ProgramPhase, Workout, WorkoutDay
+from .models import Program, ProgramPhase, Workout, WorkoutDay, WorkoutSession
 
 
 class ProgramModelAdmin(admin.ModelAdmin):
@@ -41,17 +41,30 @@ class WorkoutModelAdmin(admin.ModelAdmin):
 
 
 class WorkoutDayModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "name", "summary", "recommendations", "motivation_quotes", "day_of_week"]
+	list_display = ["id", "day_of_week", "session"]
 	list_display_links = ["id"]
-	list_editable = ["name", "summary", "recommendations", "motivation_quotes", "day_of_week"]
+	list_editable = ["day_of_week", "session"]
+	list_filter = ["day_of_week"]
+	search_fields = ["day_of_week"]
+
+	class Meta:
+		model = WorkoutDay
+
+
+class WorkoutSessionModelAdmin(admin.ModelAdmin):
+	list_display = ["id", "name", "summary", "recommendations", "motivation_quotes"]
+	list_display_links = ["id"]
+	list_editable = ["name", "summary", "recommendations", "motivation_quotes"]
 	list_filter = ["name"]
 	search_fields = ["name"]
 
 	class Meta:
-		model = WorkoutDay
+		model = WorkoutSession
 
 
 admin.site.register(Program, ProgramModelAdmin)
 admin.site.register(ProgramPhase, ProgramPhaseModelAdmin)
 admin.site.register(Workout, WorkoutModelAdmin)
 admin.site.register(WorkoutDay, WorkoutDayModelAdmin)
+admin.site.register(WorkoutSession, WorkoutSessionModelAdmin)
+

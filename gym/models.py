@@ -2,6 +2,7 @@
 # Python imports
 # Django imports
 from django.db import models
+from django.core.exceptions import ValidationError
 # Third party app imports
 # Local app imports
 
@@ -44,4 +45,4 @@ class Set(models.Model):
 
 	# Methods
 	def __str__(self):
-		return str(self.reps) + ' ' + str(self.reps_unit) + ' x ' + str(self.weight) + 'x' + str(self.weight_unit)
+		return str(self.reps) + ' ' + str(self.reps_unit) + ' x ' + str(self.weight) + ' ' + str(self.weight_unit)
