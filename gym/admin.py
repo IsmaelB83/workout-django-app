@@ -30,11 +30,11 @@ class ExerciseSetModelAdmin(admin.ModelAdmin):
 
 
 class SetModelAdmin(admin.ModelAdmin):
-	list_display = ["id", "exercise", "reps", "reps_unit", "weight", "weight_unit"]
+	list_display = ["id", "reps", "reps_unit", "weight", "weight_unit"]
 	list_display_links = ["id"]
-	list_editable = ["exercise", "reps", "reps_unit", "weight", "weight_unit"]
-	list_filter = ["exercise"]
-	search_fields = ["exercise"]
+	list_editable = ["reps", "reps_unit", "weight", "weight_unit"]
+	list_filter = ["reps", "reps_unit", "weight", "weight_unit"]
+	search_fields = ["reps", "reps_unit", "weight", "weight_unit"]
 
 	class Meta:
 		model = Set

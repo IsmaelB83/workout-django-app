@@ -13,7 +13,7 @@ class Program(models.Model):
 
 	# Attributes
 	name = models.CharField(null = False, blank = False, max_length = 100)
-	image = models.ImageField(upload_to = 'planner/program/', null = False, blank = False)
+	image = models.ImageField(upload_to = 'planner/program/', null = False, blank = True)
 	summary = models.TextField(null = False, blank = True, max_length = 1500)
 	level = models.CharField(max_length = 2, choices = LEVEL, default = 'IN')
 	goal = models.CharField(max_length = 2, choices = TYPE, default = 'MA')

@@ -1,0 +1,92 @@
+[
+    {
+        "pk": 1, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Abs",
+	        "description": "We all want great abs! Abdominals have come to be the center piece of the physique, a real show piece. Both men and women have 'great abs' or '6-pack' on their goal lists. Nothing is more appealing than a healthy and fit body with a nicely trimmed waist. The important key for anybody to realize is that everyone has abdominals, they are simply covered in fat and need toning. Now, I must point out that you cannot spot reduce fat from your abdominal region; when you lose fat, it is lost equally throughout your entire body. However, you can encourage this fat loss process by exercising the abdominals regularly. It is essential to take into consideration that to have a complete abdominal development, you must train all the four areas of the abdominal region equally. The hardest area to see progress in are the lower abdominals, but this is only due to the fact that more fat is stored there than in the other areas.",	
+            "benefits": "The abdomen, or abdominal region is actually composed of 6 muscle groups that are located and attached from the ribs to the pelvis region. These are referred to as the core region and are responsible for moving, flexing and supporting the trunk areas. Amongst the benefit of having a slim torso, having strong abdominal and core muscles reduces lower back pain an aches and increases stability to your torso.",
+	        "basics": "The abdominals are a stubborn muscle to train; moreover, due to the quick build up of lactic acid (burning feeling) during the exercises, most people avoid training them. It will be noted that all areas of the abdominal area must be trained to achieve fully developed the abs. The upper abs, lower abs, and middle abs along with the obliques must all be trained with various exercises. You do not need to train all four areas every single abdominal training session; however do not favor one area to another unless it is and area which is under developed. The proper way to train abdominals is with slow repetitions along with a controlled, strict range of motion. A true set of abdominals should only be between 12 to 15 repetitions, unless you are advanced and perform up to 20. If you are past this repetition range of 20, you are not training your abdominals effectively.You will notice this with individuals performing abdominal exercises of repetitions ranging from 50 and above; secondary muscles are applied. Abdominals recover quickly, so they may be trained every other day, perhaps every day by advanced individuals. Breathing air in and blowing it out is very important to the contraction and stretching of the abdominals during the exercises. As you contract your abdominal muscles, you need to blow out your air and contract, then when you release and stretch out, you need to breath air in. Performing this correctly will lead to results!"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Arms",
+ 	        "description": "We all want great abs! Abdominals have come to be the center piece of the physique, a real show piece. Both men and women have 'great abs' or '6-pack' on their goal lists. Nothing is more appealing than a healthy and fit body with a nicely trimmed waist. The important key for anybody to realize is that everyone has abdominals, they are simply covered in fat and need toning. Now, I must point out that you cannot spot reduce fat from your abdominal region; when you lose fat, it is lost equally throughout your entire body. However, you can encourage this fat loss process by exercising the abdominals regularly. It is essential to take into consideration that to have a complete abdominal development, you must train all the four areas of the abdominal region equally. The hardest area to see progress in are the lower abdominals, but this is only due to the fact that more fat is stored there than in the other areas.",
+            "benefits": "The abdomen, or abdominal region is actually composed of 6 muscle groups that are located and attached from the ribs to the pelvis region. These are referred to as the core region and are responsible for moving, flexing and supporting the trunk areas. Amongst the benefit of having a slim torso, having strong abdominal and core muscles reduces lower back pain an aches and increases stability to your torso.",
+	        "basics": "The muscles of the arms are one of the most sought after parts to develop. Your arm consists two thirds of triceps and one third of biceps, making the triceps muscle the larger of the two. Therefore, if you seek to gain more size in your arms, be sure to focus on the triceps to a greater degree. In men there is usually a strong emphasis placed on training the biceps over triceps. On the other hand, many women feel that they need to tone up th triceps area since over time, skin and fat begins to hang and look un-appealing with age. Toning up the triceps is the solution to this common problem. Complete arm development requires the training of both biceps and triceps."
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Shoulders",
+ 	        "description": "The shoulders are a key muscle group in creating the balanced physique. It has always been the desire of people to have broad shoulders, let it be male or female. We have for centuries padded our suits and dresses to give the illusion of wide, powerful shoulders. Having wide shoulders also adds to the illusion of a V-taper which will make your waist look smaller. In general, the method to follow in the development of this V-taper look is to focus on the development of the side of the shoulders or side deltoids.",
+            "benefits": "The deltoid muscle originates on the lateral clavicle and inserts on the lateral proximal third of the humerus. Its major action is to raise and rotate the upper arm. The deltoid is divided into three major parts. The anterior front, medial side and anterior rear muscle heads. Strong and toned shoulder muscles can help prevent injuries and pain that come with everyday life and aging.",
+	        "basics": "The deltoid as a whole is composed of three small muscle heads, therefore is a relatively small muscle group. Basically, there are two types of exercises for the deltoids; presses and raises. These used in variations will train all three heads effectively. It is proven that low reps are best for all pressing movements and high reps are most effective for all raising movements."
+       }
+    }, 
+    {
+        "pk": 4, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Back",
+	        "description": "The development of the muscles of the back are important for posture, strength and overall well being. In individuals, the development of a wide back can always give the illusion of a narrow waist. It is significant to have a strong lower back which will support you in many exercises, as well as in many tasks in your daily life. Trapezius muscles are also key as they help and aid your shoulder muscles and are a strong factor in preventing injuries.",
+            "benefits": "The back is composed of three main muscle groups. The trapezius traps, latissimus dorsi back and spinal erectors lower back. The trapezius are located originating from your neck down to the middle of your back where they come to a point. Your lats are located at each side of your traps which extend from the shoulders down to your lower back. The major function of the latissimus dorsi is to extend the arm and to rotate the arm medially. The major function of the trapezius is to move the scapula. Finally, the major function of the spinal erectors is to extend and laterally bend the trunk, neck and head.",
+	        "basics": "The back is divided into three generalizations, the thickness, width and detail of the lower back. Of course, there are a variety of exercises available which target each area specifically. The two main movements or type of movements which stimulate the back muscles are the range of movement of the shoulders being pulled back or down. In addition, for the lower back, since it's function is that of a stabilizer, you must actually bend at the waist to stimulate its growth. The trapezius muscles which form the basis of the upper back work in opposition to the exercises of the back. However, the trapezius are trained as a secondary muscle for many exercises of other body parts. The exercises which are beneficial are shrugging movements."
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Legs",
+	        "description": "Thigh strength and muscle development is very important to an overall physique. Legs are perhaps the most neglected areas to train and exercise simply because they take a lot of effort physically to exercise. How many times have we seen an individual with a very well built upper body, to later find out they have weak or underdeveloped legs? Thigh training takes a toll on the body unlike any other as you fatigue and mentally drain. Having strong legs will help you in all sports as well as in daily life. The thighs are split into two major muscle group areas, the quadriceps and hamstrings.",
+            "benefits": "The quadriceps are further divided into four muscles groups; rectus femoris which extends the leg, flexes the thigh, sartorius which flexes, abducts and laterally rotates the thigh; flexes the leg, vastus lateralis which extends the leg and finally vastus medialis which aso extends the leg. The hamstrings are called biceps femoris which extends the thigh, flexes the legs.",
+	        "basics": "The thighs in general are tough mentally and physically to train, when done so correctly. It takes dedication and commitment to build balanced thighs. For the quadriceps as well as the hamstrings, it is very important to use a full range of motion in all exercises. While training quadriceps, it is important to incorporate basic foundation movements with isolating movements. While training the thighs you will also target your buttocks as a secondary muscle. This is especially effective for squatting and lunging exercises. In addition, hamstrings are a muscle which must be fully stretched at the extension phase of the movement while trained. High reps are most effective for isolation movements, where low rep are for compound exercises such as squats can be a good muscle builder. You must also take care to stretch and warmup prior to any exercise, especially the knees and other susceptible joints."
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Buttocks",
+	        "description": "The back side is a region that is usually on the top of the list of areas to tone or tighten for both men and women. Not only for appearance purposes, the buttocks are actually quite instrumental for daily fitness and activities. Poor buttocks can affect your health such as back pain and everyday tasks such as standing and sitting.",
+            "benefits": "The buttocks are comprised of the gluteal muscles, gluteus maximus muscle, gluteus medius muscle and gluteus minimus muscle. The two most common are the maximus and minimus. They are actually one of the strongest muscles found on the human body. The action of the buttocks is to laterally rotate as well as extend the hip, and also to extend the trunk.",
+	        "basics": "Basically, most leg exercise will target the buttock directly or indirectly. Common movements such as squats and lunges have a profound effect on the strength and development of this region."    
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Hips",
+	        "description": "The hip muscles are located at the top of the thigh as well as the inner and out parts. Many women as well as men aim to tone and strengthen this are to improve a leaner and healthier physique. Besides attaining a phsyical goal you may have, having strong and healthy hip muscle will promote healthier bones and help prevent injuries with age, sports or any other reason.",
+            "benefits": "The many muscles of the hip joint are all related to the various movements of the hip. The four major muscle groups are the gluteal group, the lateral rotator group, the adductor group and the iliopsoas group.",
+	        "basics": "There are 17 muscles located in this area yet there are roughly three major ones that should be focused on relating to fitness and strength training. There is a small yet very effective set of exercises that target both the inner as well as inner hips muscles that you can perform."
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Chest",
+	        "description": "It is well know that the chest is one of the most sought after well developed body parts for men along with arms and abdominals, however it is quite beneficial for women as well. It is a misconception that chest training reduces bust size for women. Finally, even though genetics spell out the shape and size of your pectoral muscles, as with all of your muscle groups, your training discipline can help you reach your physique goals.",
+            "benefits": "The chest is combination of the pectoralis major and minor. The first flexes and adducts the arm, medially rotates the arm, the latter draws the scapula forward, medialward, and downward. For the purpose of discussion, we'll separate the chest into four basic regions; upper, lower, outer and inner.",
+	        "basics": "The chest is a muscle which must be trained for all of its areas to develop completely. Usually for males, a full and wide chest is the goal. It is very important as with most large muscle groups to build a foundation of the muscle before concerning yourself with details. This foundation phase will be the building blocks to further detailed work. With the pectoral muscles, it is significant to follow a plan which will consist of a few basic movements along with some isolation movements. Proper form, contraction and stretching will boost your gains and help prevent injuries. There is a wide range of exercise to properly stimulate all areas of the chest muscles for men and women."
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "body.MuscleGroup", 
+        "fields": {
+            "name": "Cardio",
+	        "description": "",
+            "benefits": "",
+	        "basics": ""
+        }
+    }
+]

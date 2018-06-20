@@ -12,7 +12,7 @@ class Exercise(models.Model):
 	description = models.TextField(null = False, blank = True, max_length = 1000)
 	instructions = models.TextField(null = False, blank = True, max_length = 1000)
 	tips = models.TextField(null = False, blank = True, max_length = 1000)
-	image = models.ImageField(upload_to = 'gym/exercises/', null = False, blank = False)
+	image = models.ImageField(upload_to = 'gym/exercises/', null = False, blank = True)
 	primary_muscles = models.ManyToManyField('body.Muscle', related_name = 'primary_muscles')
 	secondary_muscles = models.ManyToManyField('body.Muscle', related_name = 'secondary_muscles', blank = True)
 
@@ -23,7 +23,8 @@ class Exercise(models.Model):
 
 class ExerciseSet(models.Model):
 	# Attributes
-	exercise = models.ForeignKey('gym.Set', null = True, blank = False, on_delete = models.SET_NULL)
+	exercise = models.ForeignKey('gym.Exercise', null = False, blank = False, on_delete = models.CASCADE)
+	sets = models.ManyToManyField('gym.Set', related_name = 'sets')
 	number_of_sets = models.IntegerField(null = False, blank = False, default = 3)
 
 	# Methods
@@ -36,7 +37,6 @@ class Set(models.Model):
 	REPS_UNIT = (('RE', 'Reps'), ('MI', 'Minutes'), ('SE', 'Seconds'), ('KM', 'kilometers'), ('UF', 'Until Failure'),)
 	WEIGHT_UNIT = (('KG', 'Kg.'), ('BW', 'Body Weight'), ('KH', 'Kms per hour'),)
 	# Attributes
-	exercise = models.ForeignKey('gym.Exercise', null = True, on_delete = models.SET_NULL)
 	reps = models.PositiveIntegerField(null = False, blank = False, default = 0)
 	reps_unit = models.CharField(max_length = 2, choices = REPS_UNIT, default = 'RE')
 	weight = models.DecimalField(max_digits = 5, decimal_places = 2)
